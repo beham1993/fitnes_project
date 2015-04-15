@@ -1,0 +1,256 @@
+* {
+  box-sizing: content-box !important;
+}
+
+body {
+  margin: 0;
+  font: 16px Tahoma;
+  color: #292929;
+}
+
+.candy {
+  width: 1200px;
+  margin: auto;
+  height: 5px;
+  background: #ce0160;
+}
+
+.candy .candy1 {
+  background: #a0cc05;
+  width: 1150px;
+  height: 5px;
+  margin-left: 50px;
+}
+
+.candy .candy1 .candy2 {
+  background: #0192c1;
+  width: 1100px;
+  height: 5px;
+  margin-left: 50px;
+}
+
+.candy .candy1 .candy2 .candy3 {
+  background: #292929;
+  width: 1050px;
+  height: 5px;
+  margin-left: 50px;
+}
+
+.wrapper {
+  background: url(../img/background.png) repeat;
+  padding: 0 130px;
+  margin: auto;
+  width: 940px;
+  overflow-x: hidden;
+}
+
+.wrapper .header {
+  height: 90px;
+  margin-bottom: 25px;
+  padding-top: 30px;
+}
+
+.wrapper .header .logo {
+  float: left;
+  height: 90px;
+  margin-right: 44px;
+}
+
+.wrapper .header .social {
+  text-align: right;
+}
+
+.wrapper .header .header_menu ul li {
+  display: block;
+  float: left;
+  padding: 0 20px;
+  line-height: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.wrapper .header .header_menu ul li:last-child {
+  padding-right: 0;
+}
+
+.wrapper .header .header_menu ul li a {
+  text-decoration: none;
+  color: #292929;
+}
+
+.wrapper .header .header_menu ul li a:hover {
+  color: #01a5ca;
+}
+
+.wrapper .slider {
+  height: 415px;
+  margin-bottom: 30px;
+  background: #292929;
+}
+
+.wrapper .slider .advers_block {
+  position: relative;
+  left: 685px;
+  top: -370px;
+  width: 255px;
+}
+
+.wrapper .slider .advers_block .advertising_head {
+  color: #01a5ca;
+  font-size: 36px;
+  width: 225px;
+}
+
+.wrapper .slider .advers_block .advertising_cont {
+  margin-top: 32px;
+  color: #7f7f7f;
+  font-size: 18px;
+  width: 225px;
+  line-height: 28px;
+}
+
+.wrapper .slider .advers_block .btn_read_more {
+  margin-top: 32px;
+  background: #3498db;
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  background: #3f3f3f;
+  padding: 12px 15px 12px 15px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.wrapper .slider .advers_block .btn_read_more:hover {
+  background: #596166;
+  text-decoration: none;
+}
+
+.wrapper .inform_about {
+  background: #fff;
+  padding: 30px 40px;
+  color: #292929;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+.wrapper .inform_cont {
+  background: #fff;
+  padding: 20px 40px 60px;
+  color: #292929;
+  font-size: 17px;
+}
+
+.wrapper .inform_cont .latest_events {
+  width: 565px;
+  float: left;
+}
+
+.wrapper .inform_cont .latest_events .overhead {
+  padding: 10px 0;
+}
+
+.wrapper .inform_cont .latest_events .overhead h4 {
+  width: 565px;
+  margin: 2px 0 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.wrapper .inform_cont .latest_events .overhead p {
+  width: 565px;
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.wrapper .inform_cont .latest_events .overhead .img_latest {
+  float: left;
+  border: 8px solid #f4f4f4;
+  margin-right: 30px;
+}
+
+.wrapper .inform_cont .right_bar {
+  margin-left: 590px;
+}
+
+.wrapper .inform_cont .right_bar ul {
+  padding-left: 15px;
+}
+
+.wrapper .inform_cont .right_bar ul li {
+  line-height: 33px;
+  font-size: 16px;
+  list-style-position: outside;
+  color: #01a5ca;
+}
+
+.wrapper .inform_cont .right_bar ul li span {
+  color: #292929;
+}
+
+.wrapper .inform_cont .right_bar input {
+  margin-top: 15px;
+  height: 40px;
+  padding-left: 15px;
+  width: 240px;
+}
+
+.wrapper .footer {
+  margin: auto;
+  text-align: center;
+  padding: 40px 0 35px;
+}
+
+.wrapper .footer span {
+  color: #01a5ca;
+}
+
+.title_head {
+  font-size: 28px;
+  color: #292929;
+  margin: 10px 0 15px;
+}
+
+.title_head span {
+  color: #01a5ca;
+}
+
+.btn_search {
+  position: relative;
+  left: 0;
+  top: 20px;
+  margin-top: 10px;
+  font-family: Arial;
+  color: #01a5ca;
+  font-size: 16px;
+  background: #f4f4f4;
+  padding: 12px 15px 12px 15px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn_search:hover {
+  background: url(../img/background.png);
+  text-decoration: none;
+}
+
+#carousel-example-generic {
+  width: 640px;
+}
+
+.carousel-control {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  background: #fff;
+  top: 370px;
+  color: #000;
+  opacity: 1;
+}
+
+.carousel-indicators {
+  bottom: 0;
+}
